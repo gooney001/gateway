@@ -1,0 +1,17 @@
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\UnitTestProject.deps.json
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\UnitTestProject.runtimeconfig.json
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\UnitTestProject.runtimeconfig.dev.json
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\UnitTestProject.dll
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\UnitTestProject.pdb
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.csprojAssemblyReference.cache
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.csproj.CoreCompileInputs.cache
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.AssemblyInfoInputs.cache
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.AssemblyInfo.cs
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.dll
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.pdb
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\test.dll
+D:\test\gateway\WebApplication1\UnitTestProject\bin\Debug\netcoreapp2.2\test.pdb
+D:\test\gateway\WebApplication1\UnitTestProject\obj\Debug\netcoreapp2.2\UnitTestProject.csproj.CopyComplete

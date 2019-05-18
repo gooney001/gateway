@@ -1,0 +1,9 @@
+D:\test\gateway\WebApplication1\Test.Model\bin\Debug\netstandard2.0\Test.Model.deps.json
+D:\test\gateway\WebApplication1\Test.Model\bin\Debug\netstandard2.0\Test.Model.dll
+D:\test\gateway\WebApplication1\Test.Model\bin\Debug\netstandard2.0\Test.Model.pdb
+D:\test\gateway\WebApplication1\Test.Model\obj\Debug\netstandard2.0\Test.Model.csprojAssemblyReference.cache
+D:\test\gateway\WebApplication1\Test.Model\obj\Debug\netstandard2.0\Test.Model.csproj.CoreCompileInputs.cache
+D:\test\gateway\WebApplication1\Test.Model\obj\Debug\netstandard2.0\Test.Model.AssemblyInfoInputs.cache
+D:\test\gateway\WebApplication1\Test.Model\obj\Debug\netstandard2.0\Test.Model.AssemblyInfo.cs
+D:\test\gateway\WebApplication1\Test.Model\obj\Debug\netstandard2.0\Test.Model.dll
+D:\test\gateway\WebApplication1\Test.Model\obj\Debug\netstandard2.0\Test.Model.pdb

@@ -1,0 +1,9 @@
+D:\test\gateway\WebApplication1\Ocelot\bin\Debug\netstandard2.0\Ocelot.deps.json
+D:\test\gateway\WebApplication1\Ocelot\bin\Debug\netstandard2.0\Ocelot.dll
+D:\test\gateway\WebApplication1\Ocelot\bin\Debug\netstandard2.0\Ocelot.pdb
+D:\test\gateway\WebApplication1\Ocelot\obj\Debug\netstandard2.0\Ocelot.csprojAssemblyReference.cache
+D:\test\gateway\WebApplication1\Ocelot\obj\Debug\netstandard2.0\Ocelot.csproj.CoreCompileInputs.cache
+D:\test\gateway\WebApplication1\Ocelot\obj\Debug\netstandard2.0\Ocelot.AssemblyInfoInputs.cache
+D:\test\gateway\WebApplication1\Ocelot\obj\Debug\netstandard2.0\Ocelot.AssemblyInfo.cs
+D:\test\gateway\WebApplication1\Ocelot\obj\Debug\netstandard2.0\Ocelot.dll
+D:\test\gateway\WebApplication1\Ocelot\obj\Debug\netstandard2.0\Ocelot.pdb

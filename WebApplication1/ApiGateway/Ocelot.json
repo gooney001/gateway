@@ -1,0 +1,34 @@
+{
+  "ReRoutes": [
+    //CatService
+    {
+      "DownstreamPathTemplate": "/api/findcat", //下游服务的访问路径
+      "DownstreamScheme": "http", //下游服务是http还是https
+      "DownstreamHostAndPorts": [ //下游服务的地址以及端口号
+        {
+          "Host": "localhost", //下游服务的地址
+          "Port": "6001" //下游服务的端口号
+        }
+      ],
+      "UpstreamPathTemplate": "/service/cat", //上游服务的访问路径
+      "UpstreamHttpMethod": [ "GET", "POST" ], //上游服务的访问模式，本例里只用到了POST
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "TestKey",
+        "AllowedScopes": []
+      }
+    },
+    //Report
+    {
+      "DownstreamPathTemplate": "/{url}", //下游服务的访问路径
+      "DownstreamScheme": "http", //下游服务是http还是https
+      "DownstreamHostAndPorts": [ //下游服务的地址以及端口号
+        {
+          "Host": "localhost", //下游服务的地址
+          "Port": "5000" //下游服务的端口号
+        }
+      ],
+      "UpstreamPathTemplate": "/service/report/{url}", //上游服务的访问路径
+      "UpstreamHttpMethod": [ "GET", "POST" ] //上游服务的访问模式，本例里只用到了POST
+    }
+  ]
+}

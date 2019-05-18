@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ocelot</id>
+    <version>0.0.0-dev</version>
+    <authors>Tom Pallister</authors>
+    <owners>Tom Pallister</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/TomPallister/Ocelot</projectUrl>
+    <description>This project is aimed at people using .NET running a micro services / service orientated architecture that need a unified point of entry into their system. In particular I want easy integration with IdentityServer reference and bearer tokens. We have been unable to find this in my current workplace without having to write our own Javascript middlewares to handle the IdentityServer reference tokens. We would rather use the IdentityServer code that already exists to do this. Ocelot is a bunch of middlewares in a specific order. Ocelot manipulates the HttpRequest object into a state specified by its configuration until it reaches a request builder middleware where it creates a HttpRequestMessage object which is used to make a request to a downstream service. The middleware that makes the request is the last thing in the Ocelot pipeline. It does not call the next middleware. The response from the downstream service is stored in a per request scoped repository and retrived as the requests goes back up the Ocelot pipeline. There is a piece of middleware that maps the HttpResponseMessage onto the HttpResponse object and that is returned to the client. That is basically it with a bunch of other features.</description>
+    <tags>API Gateway .NET core</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Consul" version="0.7.2.5" exclude="Build,Analyzers" />
+        <dependency id="FluentValidation" version="7.6.104" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="IdentityServer4.AccessTokenValidation" version="2.6.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.MiddlewareAnalysis" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.SQLite" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.EnvironmentVariables" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.FileExtensions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DiagnosticAdapter" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Pivotal.Discovery.ClientCore" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Polly" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="Rafty" version="0.4.4" exclude="Build,Analyzers" />
+        <dependency id="System.Text.RegularExpressions" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\test\gateway\WebApplication1\Ocelot\bin\Release\netstandard2.0\Ocelot.dll" target="lib\netstandard2.0\Ocelot.dll" />
+  </files>
+</package>

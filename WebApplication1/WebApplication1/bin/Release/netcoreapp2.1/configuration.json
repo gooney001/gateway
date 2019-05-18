@@ -1,0 +1,66 @@
+{
+  "ReRoutes": [
+    {
+      "DownstreamPathTemplate": "/api/values", // 下游游请求模板
+      "DownstreamScheme": "http", //下游服务 schema
+      //"UpstreamPathTemplate": "/api/values", // 上游请求模板
+      "UpstreamPathTemplate": "/report", // 上游请求模板
+      "UpstreamHttpMethod": [ "Get", "Post" ], // 上游请求http方法
+      //下游服务的地址，如果使用LoadBalancer的话这里可以填多项
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5000
+        }
+      ],
+      //LeastConnection – 将请求发往最空闲的那个服务器
+      //"RoundRobin""轮流发送"
+      //"NoLoadBalance" "总是发往第一个请求或者是服务发现",
+      "LoadBalancer": "LeastConnection",
+      //熔断配置
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3, //允许的异常请求数
+        "DurationOfBreak": 10, //熔断的时间，单位为秒
+        "TimeoutValue": 5000 //如果下游请求的处理时间超过多少则将请求设置为超时
+      },
+      //缓存配置
+      "FileCacheOptions": {
+        "TtlSeconds": 10,
+        "Region": "somename" //是对缓存进行的一个分区
+      },
+      "HttpHandlerOptions": {
+        "AllowAutoRedirect": false,
+        "UseCookieContainer": false
+      },
+      //配置服务认证
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/product",
+      "DownstreamScheme": "http",
+      "UpstreamPathTemplate": "/api/product",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50001
+        }
+      ],
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 3,
+        "DurationOfBreak": 10,
+        "TimeoutValue": 5000
+      },
+      "AuthenticationOptions": {
+
+      }
+    }
+  ],
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "AdministrationPath": "/admin"
+  }
+}

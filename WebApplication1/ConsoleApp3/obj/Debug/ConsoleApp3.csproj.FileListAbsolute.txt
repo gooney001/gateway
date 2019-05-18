@@ -1,0 +1,6 @@
+D:\test\gateway\WebApplication1\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+D:\test\gateway\WebApplication1\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+D:\test\gateway\WebApplication1\ConsoleApp3\obj\Debug\ConsoleApp3.csprojAssemblyReference.cache
+D:\test\gateway\WebApplication1\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+D:\test\gateway\WebApplication1\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+D:\test\gateway\WebApplication1\ConsoleApp3\obj\Debug\ConsoleApp3.pdb

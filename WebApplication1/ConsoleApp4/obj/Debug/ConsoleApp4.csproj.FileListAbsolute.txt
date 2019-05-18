@@ -1,0 +1,7 @@
+D:\test\gateway\WebApplication1\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+D:\test\gateway\WebApplication1\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+D:\test\gateway\WebApplication1\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+D:\test\gateway\WebApplication1\ConsoleApp4\obj\Debug\ConsoleApp4.csprojAssemblyReference.cache
+D:\test\gateway\WebApplication1\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+D:\test\gateway\WebApplication1\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+D:\test\gateway\WebApplication1\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
